@@ -3,6 +3,7 @@
 import * as z from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
+import { FileUpload } from "@/components/file-upload";
 
 import {
     Dialog,
@@ -76,7 +77,19 @@ export const InitialModal = () => {
                     <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
                         <div className="space-y-8 px-6">
                             <div className="flex items-center justify-center text-center">
-                                TODO: Image Upload
+                                <FormField
+                                    control={form.control}
+                                    name="imageUrl"
+                                    render={({ field }) => (
+                                        <FormItem>
+                                            <FormControl>
+                                                <FileUpload endpoint="serverImage"
+                                                value ={field.value}
+                                                onChange={field.onChange}/>
+                                            </FormControl>
+                                        </FormItem>
+                                    )}
+                                />
                             </div>
 
                             <FormField 
@@ -92,7 +105,7 @@ export const InitialModal = () => {
                                         <FormControl>
                                             <Input
                                                 disabled={isLoading}
-                                                className="bg-zinc-300/50 border-0 focus-visible:ring-offset-0"
+                                                className="bg-zinc-300/50 border-0 focus-vis    ible:ring-offset-0"
                                                 placeholder="Enter server name"
                                                 {...field}
                                             />
