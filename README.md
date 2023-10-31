@@ -40,7 +40,7 @@ These instructions will help you get a copy of the project up and running on you
 A step-by-step guide on how to install and set up the project. For example:
 
 **1. Clone the repository**
-`git clone https://github.com/yourusername/Relay.git` 
+`git clone https://github.com/mohitdhami/Relay.git` 
 
 **2. Start Project in development Mode**
 `$ npm run dev` 
