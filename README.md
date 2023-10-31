@@ -1,37 +1,65 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Relay - A Discord Clone
+
+Relay is an open-source Discord clone project designed to provide a platform for real-time communication, whether it's for gaming, communities, or any other purpose.
+
+## Key Features
+
+**1. Real-time Text and Voice Communication**
+Experience the thrill of instant communication with real-time text and voice chat. Relay ensures that your conversations happen seamlessly, whether it's for quick messages or long voice calls.
+
+ **2. Multiple Server and Channel Support**
+Effortlessly manage your communities, groups, or projects with multiple servers and channels. Create separate spaces for different discussions, ensuring clarity and organization.
+
+**3. User Roles and Permissions Management**
+Customize user roles and permissions within your servers. Assign roles to users and manage their abilities to maintain order and control.
+
+ **4. Emojis and Reactions**
+Add some fun and expressiveness to your conversations with a range of emojis and reaction options. React to messages to express your feelings or simply have some fun.
+
+**5. Private Messaging**
+Have private one-on-one conversations or create group chats for intimate discussions. Relay offers end-to-end encryption for private messages to ensure your privacy.
+
+**6. File and Media Sharing**
+Share files, images, videos, and more with ease. Relay provides a platform for effortless media sharing, ensuring that your content is readily accessible.
+
+
+## Table of Contents
+
+- [Getting Started](#getting-started)
+- [Tech Stack](#techstack)
+- [Installation](#installation)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Getting Started
 
-First, run the development server:
+These instructions will help you get a copy of the project up and running on your local machine for development and testing purposes.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Installation
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+A step-by-step guide on how to install and set up the project. For example:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**1. Clone the repository**
+`git clone https://github.com/yourusername/Relay.git` 
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+**2. Start Project in development Mode**
+`$ npm run dev` 
 
-## Learn More
+## Tech Stack
+|Node.js|  Next.js| Prisma| Shadcn UI  | UploadThing
+|--|--|--| -- |  -- |
+| **PlanetScale** | **Typescript** | **SQL** | **Clerk Auth** | **Zustand**
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contribution (Currently not allowed)
+-  if your want to contribute, read contribution rules `contributing.md` and ensure you are following project specific contributing practices.
+- Don't use this repository as a practice repository, we expect valuable contributions that makes drastic difference in a good way
+- Our goal is to make this clone more robust and secure for the users
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## License
+- Do whatever you want to do with this codebase by cloning it and implement your own feature, host on your own web services 
 
-## Deploy on Vercel
+<br>
+Thank you for visiting our repository 💙
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-"# Relay" 
+Happy Journey 🚀
