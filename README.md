@@ -1,3 +1,5 @@
+> Disclaimer: The App has active usability issues, cloning and re-building the repository may throw errors
+
 ## Relay - A Discord Clone
 
 Relay is an open-source Discord clone project designed to provide a platform for real-time communication, whether it's for gaming, communities, or any other purpose.
