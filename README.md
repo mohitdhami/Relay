@@ -1,4 +1,4 @@
-> Disclaimer: The App has active usability issues, cloning and re-building the repository may throw errors
+> Disclaimer: This application currently has active usability issues. If you attempt to clone and rebuild the repository, you may encounter errors. I recommend using this codebase strictly for reference purposes, rather than for practical application or development.
 
 ## Relay - A Discord Clone
 
